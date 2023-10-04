@@ -39,4 +39,5 @@ Here, public schema has the RAW Datasets, dbt_bpanda schema has my dev datasets 
 ![image](https://github.com/bkpanda/MetricStore_On_DBTCloud/assets/17488507/4623f195-7ea4-4037-b4f0-8819c91fca64)
 
 # Metric Store Architecture Using DBT Semantic Metric Layer
+
 ![image](https://github.com/bkpanda/MetricStore_On_DBTCloud/assets/17488507/45cab67c-f16d-4cf1-9cf0-c7ff40f3ae5c)
