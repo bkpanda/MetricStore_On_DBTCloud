@@ -20,20 +20,22 @@ A metrics store can also be called: Metrics platform, Headless BI, Metrics layer
   - SQL Programming
 
 For postgres database, I created a free tier cluster on EDB Animal Cloud on AWS East-1 region.
+
 ![image](https://github.com/bkpanda/MetricStore_On_DBTCloud/assets/17488507/d715e708-125d-4081-aaf2-c6f2e5464366)
-![image](https://github.com/bkpanda/MetricStore_On_DBTCloud/assets/17488507/7af2a297-7934-4939-87f6-2aa8f0908550)
 
 Here, public schema has the RAW Datasets, dbt_bpanda schema has my dev datasets & models, dbt_bpanda_prod has deployed datasets & models
-![image](https://github.com/bkpanda/MetricStore_On_DBTCloud/assets/17488507/b43a9033-fb39-4ecf-8618-bedfad600369)
 
+![image](https://github.com/bkpanda/MetricStore_On_DBTCloud/assets/17488507/b43a9033-fb39-4ecf-8618-bedfad600369)
 
 # Project Set Up & creation of dev env, deployment env (production env)
   - Create a project in GitLab/Github/Bitbucket & import that project to dbt cloud.
   - provide connection details (host,user,password,port) of the database/data warehouse (I have used Postgres as my source database which is free)
   - run dbt dubug command to test connectivity from dbt cloud of all the setup is correct
+
 ![image](https://github.com/bkpanda/MetricStore_On_DBTCloud/assets/17488507/9cbe3842-948e-4ed8-bf51-5f6d20c50784)
 
-For deployment env set up , only the target datastore needs to be configured (as shown in below screenshot)
+  - For deployment env set up , only the target datastore needs to be configured (as shown in below screenshot)
+
 ![image](https://github.com/bkpanda/MetricStore_On_DBTCloud/assets/17488507/4623f195-7ea4-4037-b4f0-8819c91fca64)
 
 # Metric Store Architecture Using DBT Semantic Metric Layer
