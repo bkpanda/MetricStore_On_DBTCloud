@@ -1,0 +1,10 @@
+version: 2
+
+sources:
+  - name: dvdrental
+    database: edb_admin
+    schema: public
+    tables:
+      - name: raw_customer
+      - name: raw_order
+      - name: raw_payment

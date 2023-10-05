@@ -1,0 +1,15 @@
+with source as (
+
+    select * from {{ source('dvdrental','raw_order') }}
+
+),
+staged as (
+    select
+        id as order_id,
+        order_date,
+		user_id as customer_id,
+        status
+    from source
+)
+
+select * from staged
