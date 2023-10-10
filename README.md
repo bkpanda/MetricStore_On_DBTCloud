@@ -41,3 +41,11 @@ Here, public schema has the RAW Datasets, dbt_bpanda schema has my dev datasets 
 # Metric Store Architecture Using DBT Semantic Metric Layer
 
 ![image](https://github.com/bkpanda/MetricStore_On_DBTCloud/assets/17488507/45cab67c-f16d-4cf1-9cf0-c7ff40f3ae5c)
+
+# Creating Metrics Using Facts and Dimension
+
+![image](https://github.com/bkpanda/MetricStore_On_DBTCloud/assets/17488507/1309d616-ae78-4071-b3e0-a470685e395f)
+
+# Deployment Architecture , Deploying the Metric Store to Production env & Querying the Metric Store
+
+![image](https://github.com/bkpanda/MetricStore_On_DBTCloud/assets/17488507/ddafb188-4330-48bf-b4cf-d3e223068e88)
