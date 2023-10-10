@@ -49,3 +49,10 @@ Here, public schema has the RAW Datasets, dbt_bpanda schema has my dev datasets 
 # Deployment Architecture , Deploying the Metric Store to Production env & Querying the Metric Store
 
 ![image](https://github.com/bkpanda/MetricStore_On_DBTCloud/assets/17488507/ddafb188-4330-48bf-b4cf-d3e223068e88)
+
+# Monitoring the Deployed Job on DBT-Cloud
+
+![image](https://github.com/bkpanda/MetricStore_On_DBTCloud/assets/17488507/5f935f19-16fd-458c-b988-3eb06897c2d5)
+
+![image](https://github.com/bkpanda/MetricStore_On_DBTCloud/assets/17488507/c29225a5-601b-4cbf-8878-64bc35a0093b)
+
